@@ -1,0 +1,15 @@
+.create-card {
+  width: 100px; /* 박스의 너비를 설정 */
+  height: 100px; /* 박스의 높이를 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #aaa;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 24px; /* '+' 아이콘의 크기를 조정 */
+}
+
+.create-icon {
+  /* '+' 아이콘 스타일링, 필요한 경우 */
+}

@@ -1,0 +1,14 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* 여기에 더 많은 스타일을 추가할 수 있습니다. */
+}
+
+.row-separator {
+  grid-column: 1 / -1; /* 모든 칼럼을 차지하도록 합니다. */
+  height: 1px;
+  background-color: black;
+  margin-top: 10px; /* 선과 카드 사이의 간격을 조절합니다. */
+  margin-bottom: 10px;
+}
